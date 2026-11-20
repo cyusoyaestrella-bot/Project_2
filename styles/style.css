@@ -112,6 +112,12 @@ body {
     letter-spacing: 0.08em;
     text-transform: uppercase;
     margin-bottom: 1rem;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.badge:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 6px 16px rgba(245, 158, 11, 0.22);
 }
 
 .hero h1 {
